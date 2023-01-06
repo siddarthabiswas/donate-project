@@ -1,3 +1,158 @@
-*{
+* {
     margin: 0;
+}
+
+/* header area */
+.header-area{
+    background-image: url("../images/donation12.png");
+    height: 540px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.donate-section {
+    text-align: center;
+    margin-top: 150px;
+}
+.donate-section h2 {
+    font-size: 50px;
+}
+.donate-section p {
+    margin: 15px 0;
+    font-size: 25px;
+}
+.donate-section ul {
+    display: flex;
+    justify-content: space-between;
+}
+.tk{
+    border: 2px solid #f10909;
+    background-color: #de0f0f;
+}
+.donate-section ul li {
+    list-style: none;
+    font-size: 50px;
+    background: #ddd;
+    padding: 40px 15px;
+    border-radius: 5px;
+}
+.donet-btn {
+    margin-top: 40px;
+    font-size: 35px;
+    color: #fff;
+    background: #f10909;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.donate-plan{
+margin-top: 100px;
+}
+.headin h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.headin p {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.service {
+    display: flex;
+    gap: 19px;
+}
+.single-service {
+    padding: 39px;
+    background: #03e9d4;
+    border-radius: 5px;
+}
+
+.icon-img{
+    width: 70px;
+}
+
+.single-service h4 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.single-service p {
+    font-size: 20px;
+}
+.donation-all {
+    display: flex;
+    padding-top: 100px;
+}
+.d-detail{
+    width: 50%;
+}
+.d-img{
+    width: 50%;  
+    margin-right: 100px;
+}
+.d-img img{
+    width: 100%;
+}
+.d-detail h2 {
+    font-size: 50px;
+}
+.d-detail p {
+    font-size: 20px;
+    margin: 37px 0;
+}
+.d-detail a {
+    text-decoration: none;
+    color: #fff;
+    background: #eb3a0c;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 100px;
+}
+.contact h2 {
+    font-size: 43px;
+}
+.contact p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.contact input {
+    padding: 11px 40px;
+    background: #f0eaea;
+    border-radius: 4px;
+    margin-right: 0px;
+    color: #fff;
+    border: none;
+}
+.email button {
+    font-size: 16px;
+    background: #f9544d;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 4px;
+    color: #fff;
+}
+.email {
+    background: #ffffe1;
+    padding: 39px 1px;
+    margin-top: 43px;
+}
+footer {
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding: 50px 0;
+}
+footer h2 {
+    font-size: 50px;
+}
+footer p {
+    font-size: 24px;
 }
